@@ -1,6 +1,7 @@
 # InBit Token
 
 The smart contract for [PrepayWay](https://prepayway.com/) InBit token
+
 ![InBit](InBit.png)
 
 ### Token Standard ###
@@ -9,7 +10,7 @@ InBit is an ERC-20 token
 
 ### Contract address ###
 
-Contract address is:
+Contract address on [Ropsten](https://ropsten.etherscan.io/) Test Network is: 0x7980ef41fEab11459b60CF5b3dfb267d5400672d
 
 
 ### Contribution guidelines ###
