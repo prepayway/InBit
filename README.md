@@ -1,6 +1,7 @@
 # InBit Token
 
-The smart contract for InBit token
+The smart contract for [PrepayWay](https://prepayway.com/) InBit token
+![InBit](InBit.png)
 
 ### Token Standard ###
 
