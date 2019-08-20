@@ -130,7 +130,7 @@ contract InBitToken {
   //@dev mapping array for keeping the balances of all the accounts
   mapping(address => uint256) public balanceOf;
 
-  //@dev ammping array that keeps the allowance that is still allowed to withdraw from _owner
+  //@dev amping array that keeps the allowance that is still allowed to withdraw from _owner
   mapping(address => mapping(address => uint256)) public allowance;
   //@notice account A approved account B to send C tokens (amount C is actually left )
 
@@ -316,7 +316,7 @@ contract InBitToken {
     return true;
   }
 
-  //@notice The end of standard ERC-20 functoins
+  //@notice The end of standard ERC-20 functions
   //@noitce Further goes additional function from ERC1132 and burn function
   //@dev Returns tokens locked for a specified address for a specified reason
   //@param _of the address being checked
@@ -336,7 +336,7 @@ contract InBitToken {
   // @param _reason the reason balance of locked tokens is checked for (how many tokens will be locked for a specified reason)
   // @param _time the future timestamp balance of locked tokens is checked for (how many tokens will be locked for a specified reason at a specified timestamp)
   // @noitce this function shows the number of unclaimed tokens for the _of address at the moment in future defined in a _time parameter. It shows only locked tokens.
-  // The difference with tokensLocked is because tokensLocked shows the amount at the current momentand calculates both locked and unlockable but not yet claimed tokes at the moment.
+  // The difference with tokensLocked is because of tokensLocked shows the amount at the current moment and calculates both locked and unlockable but not yet claimed tokes at the moment.
   // In the future, we cannot predict the behavior of the user and can show only locked ones.
   function tokensLockedAtTime(address _of, bytes32 _reason, uint256 _time)
     public
@@ -363,7 +363,7 @@ contract InBitToken {
   // @dev Returns the amount of unlockable tokens for a specified address for a specified reason
   // @param _of The address being checked
   // @param _reason The reason number of unlockable tokens is checked for
-  // @notice How many tokens are unlockable for a specified reason for a specified adress
+  // @notice How many tokens are unlockable for a specified reason for a specified address
   function tokensUnlockable(address _of, bytes32 _reason)
     public
     view
@@ -375,7 +375,7 @@ contract InBitToken {
   }
 
   // @dev Returns the total amount of all unlockable tokens for a specified address.
-  // @param _of The address to query the the unlockable token count of
+  // @param _of The address to query the unlockable token count of
   function getUnlockableTokens(address _of)
     public
     view
