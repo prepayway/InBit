@@ -13,7 +13,7 @@ InBit is an ERC-20 token
 Contract address on [Ropsten](https://ropsten.etherscan.io/) Test Network is: [0x7980ef41fEab11459b60CF5b3dfb267d5400672d](https://ropsten.etherscan.io/address/0x7980ef41fEab11459b60CF5b3dfb267d5400672d#code)
 
 
-### Contribution guidelines ###
+### Background ###
 
 The InBit Token follows the [ERC-20](https://en.wikipedia.org/wiki/ERC-20) standard
 
