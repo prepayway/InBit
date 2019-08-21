@@ -64,7 +64,9 @@ library SafeMath {
 }
 
 /*
-ERC-20 token with EIP-1132 and additional burn function
+ERC-20 token
+EIP-1132 locking functions
+Burn function
 */
 contract InBitToken {
 
